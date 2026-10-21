@@ -1,16 +1,16 @@
 <?php
 
-$domain = 'http://localhost/ristravelcianjur.w  eb.id/';
-$domain = 'https://ristravelcianjur.web.id/';
-$brand = 'Ris Travel Cianjur';
-// $logoShared = 'src/img/harga-travel.jpg';
-$logo = 'src/img/logo.webp';
-$logoPanjang = 'src/img/logo.webp';
+$domain = 'http://localhost/zakaria-travel-cianjur.web.id/';
+// $domain = 'https://zakaria-travel-cianjur.web.id/';
+$brand = 'Zakaria Travel Cianjur';
+$logoShared = 'src/img/harga-travel.jpg';
+$logo = 'src/img/logo.avif';
+$logoPanjang = 'src/img/logo.avif';
 $title = $brand . " - Travel di Cianjur dan Sukabumi";
 $desc = $brand . " melayani travel dari Cianjur dan Sukabumi tujuan seluruh Jabodetabek, Bandara Soetta, Bandung, Semarang, Surabaya, hingga Bali";
-$telp = '0858-8211-2376';
+$telp = '0838-9222-6762';
 // $telp2 = '0857-9190-4615';
-$alamat = 'Mekarsari, Kabupaten Cianjur, Jawa Barat';
+$alamat = 'Perum Arwinda Asri, Kec. Karangtengah, Kab. Cianjur, Jawa Barat';
 
 $iframe = 'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3961.7020244635473!2d107.1220278!3d-6.806055599999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwNDgnMjEuOCJTIDEwN8KwMDcnMTkuMyJF!5e0!3m2!1sid!2sid!4v1789303685859!5m2!1sid!2sid';
 
@@ -203,12 +203,12 @@ $kota = [
 ];
 
 $galeri = [
-  '1.jpeg',
-  '2.jpeg',
-  '3.jpeg',
-  '4.jpeg',
-  '5.jpeg',
-  '6.jpeg',
+  // '1.jpeg',
+  // '2.jpeg',
+  // '3.jpeg',
+  // '4.jpeg',
+  // '5.jpeg',
+  // '6.jpeg',
 ];
 
 // $harga = [
@@ -519,7 +519,7 @@ function rupiah(int $harga)
     <!-- Hero Section -->
     <section class="container !pb-10">
       <div
-        style="background-image: url(<?= $domain ?>src/img/background-hero-section.webp)"
+        style="background-image: url(<?= $domain ?>src/img/background-hero-section.avif)"
         class="py-10 lg:py-7 bg-fixed bg-contain bg-center rounded-lg relative">
         <div
           class="absolute rounded-lg inset-0 bg-[radial-gradient(rgb(0_0_0_/_0.9),rgb(0_0_0_/_0.7))] md:bg-[radial-gradient(rgb(0_0_0_/_0.6),rgb(0_0_0_/_0.7))] from-0% via-50% to-100%">
@@ -700,7 +700,7 @@ function rupiah(int $harga)
           class="bg-gradient-to-tr from-primary to-primary-hover rounded-3xl p-8 text-center sm:p-16 md:px-24 md:py-20 lg:px-28">
           <div class="max-w-2xl mx-auto">
             <h2 class="text-white text-4xl">
-              Apakah anda ingin menjadwalkan <?= $brand ?>?
+              Ingin menjadwalkan Travel bersama <?= $brand ?>?
             </h2>
             <p
               class="max-w-lg text-base text-indigo-100 mx-auto mt-4 sm:text-lg">
@@ -814,7 +814,7 @@ function rupiah(int $harga)
 
               <div class="rute">
                 <img
-                  src="<?= $domain ?>src/img/rute.webp"
+                  src="<?= $domain ?>src/img/rute.avif"
                   width="100%"
                   height="100%"
                   loading="lazy"
