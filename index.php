@@ -6,8 +6,9 @@ $brand = 'Zakaria Travel Cianjur';
 $logoShared = 'src/img/harga-travel.jpg';
 $logo = 'src/img/logo.avif';
 $logoPanjang = 'src/img/logo.avif';
-$title = $brand . " - Travel di Cianjur dan Sukabumi";
-$desc = $brand . " melayani travel dari Cianjur dan Sukabumi tujuan seluruh Jabodetabek, Bandara Soetta, Bandung, Semarang, Surabaya, hingga Bali";
+$bg_hero = 'src/img/background-hero-section.avif';
+$title = $brand . " - Jasa Travel No 1";
+$desc = $brand . " melayani perjalanan travel dari Sukabumi ke seluruh wilayah Jabodetabek, Bandara Soekarno-Hatta, Bandung, Semarang, Surabaya, hingga Bali dengan layanan yang nyaman dan terpercaya.";
 $telp = '0838-9222-6762';
 // $telp2 = '0857-9190-4615';
 $alamat = 'Perum Arwinda Asri, Kec. Karangtengah, Kab. Cianjur, Jawa Barat';
@@ -56,113 +57,90 @@ $menu = [
 $rute = [
 
   [
-    'tujuan' => 'Jakarta',
+    'tujuan' => 'Jabodetabek',
     'rute' => [
       ['Travel Cianjur Jakarta', 0],
-      ['Travel Sukabumi Jakarta', 0],
-      ['Travel Jakarta Cianjur', 0],
-      ['Travel Jakarta Sukabumi', 0],
-    ],
-  ],
-  [
-    'tujuan' => 'Bandara Soetta',
-    'rute' => [
-      ['Travel Cianjur Bandara Soetta', 0],
-      ['Travel Sukabumi Bandara Soetta', 0],
-      ['Travel Bandara Soetta Cianjur', 0],
-      ['Travel Bandara Soetta Sukabumi', 0],
-    ],
-  ],
-  [
-    'tujuan' => 'Bandung',
-    'rute' => [
-      ['Travel Cianjur Bandung', 0],
-      ['Travel Sukabumi Bandung', 0],
-      ['Travel Bandung Cianjur', 0],
-      ['Travel Bandung Sukabumi', 0],
-    ],
-  ],
-  [
-    'tujuan' => 'Bogor',
-    'rute' => [
       ['Travel Cianjur Bogor', 0],
-      ['Travel Sukabumi Bogor', 0],
-      ['Travel Bogor Cianjur', 0],
-      ['Travel Bogor Sukabumi', 0],
-    ],
-  ],
-  [
-    'tujuan' => 'Depok',
-    'rute' => [
       ['Travel Cianjur Depok', 0],
-      ['Travel Sukabumi Depok', 0],
-      ['Travel Depok Cianjur', 0],
-      ['Travel Depok Sukabumi', 0],
-    ],
-  ],
-  [
-    'tujuan' => 'Tangerang',
-    'rute' => [
       ['Travel Cianjur Tangerang', 0],
-      ['Travel Sukabumi Tangerang', 0],
-      ['Travel Tangerang Cianjur', 0],
-      ['Travel Tangerang Sukabumi', 0],
-    ],
-  ],
-  [
-    'tujuan' => 'Bekasi',
-    'rute' => [
       ['Travel Cianjur Bekasi', 0],
-      ['Travel Sukabumi Bekasi', 0],
-      ['Travel Bekasi Cianjur', 0],
-      ['Travel Bekasi Sukabumi', 0],
+      ['Travel Cianjur Bandara Soetta', 0],
     ],
   ],
+
   [
-    'tujuan' => 'Cikarang',
+    'tujuan' => 'Banten',
     'rute' => [
-      ['Travel Cianjur Cikarang', 0],
-      ['Travel Sukabumi Cikarang', 0],
-      ['Travel Cikarang Cianjur', 0],
-      ['Travel Cikarang Sukabumi', 0],
+      ['Travel Cianjur Banten', 0],
+      ['Travel Cianjur Cilegon', 0],
+      ['Travel Cianjur Serang', 0],
+      ['Travel Cianjur Tangerang', 0],
+      ['Travel Cianjur Tangsel', 0],
+      ['Travel Cianjur Dan lain-lain', 0],
     ],
   ],
+
+  [
+    'tujuan' => 'Jawa Barat',
+    'rute' => [
+      ['Travel Cianjur Karawang', 0],
+      ['Travel Cianjur Indramayu', 0],
+      ['Travel Cianjur Cirebon', 0],
+      ['Travel Cianjur Bandung', 0],
+      ['Travel Cianjur Kuningan', 0],
+      ['Travel Cianjur Dan lain-lain', 0],
+    ],
+  ],
+
+  [
+    'tujuan' => 'Jawa Tengah',
+    'rute' => [
+      ['Travel Cianjur Tegal', 0],
+      ['Travel Cianjur Semarang', 0],
+      ['Travel Cianjur Solo', 0],
+      ['Travel Cianjur Jepara', 0],
+      ['Travel Cianjur Pari', 0],
+      ['Travel Cianjur Dan lain-lain', 0],
+    ],
+  ],
+
+  [
+    'tujuan' => 'Yogya',
+    'rute' => [
+      ['Travel Cianjur Jogja', 0],
+      ['Travel Cianjur Sleman', 0],
+      ['Travel Cianjur Bantul', 0],
+      ['Travel Cianjur Gunungkidul', 0],
+      ['Travel Cianjur Kulon Praga', 0],
+      ['Travel Cianjur Dan lain-lain', 0],
+    ],
+  ],
+
+  [
+    'tujuan' => 'Jawa Timur',
+    'rute' => [
+      ['Travel Cianjur Tuban', 0],
+      ['Travel Cianjur Surabaya', 0],
+      ['Travel Cianjur Sidoarjo', 0],
+      ['Travel Cianjur Kediri', 0],
+      ['Travel Cianjur Banyuwangi', 0],
+      ['Travel Cianjur Dan lain-lain', 0],
+    ],
+  ],
+
   [
     'tujuan' => 'Bali',
     'rute' => [
-      ['Travel Cianjur Bali', 0],
-      ['Travel Sukabumi Bali', 0],
-      ['Travel Bali Cianjur', 0],
-      ['Travel Bali Sukabumi', 0],
-    ],
-  ],
-  [
-    'tujuan' => 'Denpasar',
-    'rute' => [
       ['Travel Cianjur Denpasar', 0],
-      ['Travel Sukabumi Denpasar', 0],
-      ['Travel Denpasar Cianjur', 0],
-      ['Travel Denpasar Sukabumi', 0],
+      ['Travel Cianjur Jembrana', 0],
+      ['Travel Cianjur Tabanan', 0],
+      ['Travel Cianjur Badung', 0],
+      ['Travel Cianjur Gianyar', 0],
+      ['Travel Cianjur Dan lain-lain', 0],
     ],
   ],
-  [
-    'tujuan' => 'Semarang',
-    'rute' => [
-      ['Travel Cianjur Semarang', 0],
-      ['Travel Sukabumi Semarang', 0],
-      ['Travel Semarang Cianjur', 0],
-      ['Travel Semarang Sukabumi', 0],
-    ],
-  ],
-  [
-    'tujuan' => 'Surabaya',
-    'rute' => [
-      ['Travel Cianjur Surabaya', 0],
-      ['Travel Sukabumi Surabaya', 0],
-      ['Travel Surabaya Cianjur', 0],
-      ['Travel Surabaya Sukabumi', 0],
-    ],
-  ],
+
+
 
 
 ];
@@ -171,10 +149,6 @@ $kota = [
   [
     'cianjur',
     'cianjur.jpg',
-  ],
-  [
-    'sukabumi',
-    'sukabumi.jpg',
   ],
   [
     'jakarta',
@@ -193,6 +167,10 @@ $kota = [
     'semarang.jpg',
   ],
   [
+    'jogja',
+    'jogja.jpg',
+  ],
+  [
     'surabaya',
     'surabaya.jpg',
   ],
@@ -203,12 +181,12 @@ $kota = [
 ];
 
 $galeri = [
-  // '1.jpeg',
-  // '2.jpeg',
-  // '3.jpeg',
-  // '4.jpeg',
-  // '5.jpeg',
-  // '6.jpeg',
+  'default/1.jpg',
+  'default/2.jpg',
+  'default/3.jpg',
+  'default/4.jpg',
+  'default/5.jpg',
+  'default/6.jpg',
 ];
 
 // $harga = [
@@ -221,86 +199,85 @@ $galeri = [
 $keunggulan = [
   [
     '🚗',
-    'Armada Bersih, Nyaman & Terawat',
-    'Kami selalu memastikan setiap armada dalam kondisi bersih, nyaman, dan siap digunakan. Perawatan dilakukan secara rutin untuk menjaga keamanan dan kenyamanan Anda selama perjalanan.'
+    'Travel Cianjur ke Seluruh Pulau Jawa',
+    $brand . ' melayani perjalanan dari Cianjur ke berbagai kota di Pulau Jawa dan sebaliknya. Mulai dari Jabodetabek, Bandung, Jawa Tengah, hingga Jawa Timur, kami siap menjadi pilihan perjalanan antar kota Anda.'
   ],
 
   [
     '👨‍✈️',
-    'Driver Berpengalaman & Profesional',
-    'Perjalanan Anda didampingi oleh pengemudi yang berpengalaman, ramah, dan memahami berbagai rute perjalanan. Keselamatan dan kenyamanan penumpang menjadi prioritas kami.'
+    'Driver Berpengalaman & Siap Melayani',
+    'Perjalanan jarak dekat maupun jauh didukung oleh pengemudi berpengalaman yang memahami rute perjalanan antar kota. Kami mengutamakan keselamatan, kenyamanan, dan kelancaran perjalanan Anda.'
   ],
 
   [
     '🏠',
     'Layanan Antar Jemput Door to Door',
-    'Nikmati kemudahan layanan ' . $brand . ' dengan sistem antar jemput langsung dari alamat Anda hingga ke tujuan. Tanpa perlu datang ke terminal, perjalanan menjadi lebih praktis, nyaman, dan menghemat waktu.'
+    'Nikmati kemudahan layanan ' . $brand . ' dengan antar jemput dari alamat penjemputan hingga alamat tujuan sesuai area layanan. Tidak perlu repot datang ke terminal, sehingga perjalanan dari Cianjur ke berbagai kota di Pulau Jawa menjadi lebih praktis.'
   ],
 
   [
-    '🗺️',
-    'Pilihan Rute Luas & Strategis',
-    $desc . ' Didukung dengan pilihan rute yang beragam dan strategis, kami siap membantu memenuhi kebutuhan perjalanan Anda antar kota dengan lebih mudah dan nyaman.'
+    '🛣️',
+    'Layanan Pulang Pergi Antar Kota',
+    'Melayani perjalanan dari Cianjur menuju berbagai kota di Pulau Jawa maupun dari berbagai kota di Pulau Jawa menuju Cianjur. Cocok untuk kebutuhan perjalanan keluarga, pekerjaan, liburan, maupun kunjungan ke luar kota.'
   ],
 ];
-
 
 $testimonial = [
   [
-    "Saya sudah beberapa kali menggunakan layanan travel ini untuk perjalanan Cianjur ke Jakarta. Armada selalu bersih dan nyaman, AC terasa sejuk, serta driver juga ramah selama perjalanan. Proses penjemputannya pun berjalan sesuai jadwal, sehingga saya bisa bepergian dengan lebih tenang.",
-    "Andi Pratama",
-    "Pelanggan Setia"
+    "Saya merasa terbantu dengan layanan $brand untuk perjalanan dari Cianjur ke Bogor. Proses pemesanan tidak ribet, informasi perjalanan mudah dipahami, dan layanan antar jemput membuat perjalanan lebih praktis. Cocok untuk kebutuhan bepergian tanpa harus repot mencari kendaraan lanjutan.",
+    "Fajar Ramadhan",
+    "Wiraswasta"
   ],
   [
-    "Perjalanan dari Cianjur ke Bali terasa nyaman dari awal hingga sampai tujuan. Pemesanan melalui WhatsApp cukup mudah, admin cepat merespons, dan informasi keberangkatan disampaikan dengan jelas. Driver juga mengemudi dengan baik sehingga perjalanan terasa lebih aman.",
-    "Rina Maharani",
-    "Karyawan Swasta"
+    "Perjalanan dari Bandung menuju Cianjur terasa lebih praktis menggunakan travel. Saya bisa memesan terlebih dahulu melalui WhatsApp dan mendapatkan informasi keberangkatan dengan jelas. Layanan ini sangat membantu untuk perjalanan pulang pergi.",
+    "Nadia Putri",
+    "Guru"
   ],
   [
-    "Saya cukup sering melakukan perjalanan bisnis ke berbagai kota di Jawa Timur dan memilih menggunakan layanan $brand. Armada yang nyaman, jadwal keberangkatan yang teratur, serta driver yang berpengalaman membuat perjalanan jarak jauh terasa lebih nyaman. Pelayanannya juga cukup konsisten setiap kali saya bepergian.",
-    "Dedi Saputra",
-    "Pengusaha"
+    "Saya menggunakan layanan $brand untuk perjalanan kerja dari Cianjur ke Semarang. Pemesanan mudah dan perjalanan terasa lebih nyaman untuk jarak jauh. Pilihan travel seperti ini memudahkan saya mengatur perjalanan tanpa harus berganti kendaraan beberapa kali.",
+    "Rizky Firmansyah",
+    "Staf Administrasi"
   ],
   [
-    "Pengalaman menggunakan layanan ini cukup memuaskan, mulai dari proses pemesanan sampai tiba di tujuan. Admin memberikan informasi dengan baik, penjemputan berjalan sesuai jadwal, dan driver juga memperhatikan keselamatan selama perjalanan. Secara keseluruhan, saya merasa nyaman menggunakan layanan ini.",
-    "Siti Aisyah",
-    "Mahasiswa"
+    "Saat perlu bepergian dari Jakarta ke Cianjur, layanan travel door to door menjadi pilihan yang praktis. Komunikasi dengan admin cukup mudah dan perjalanan terasa lebih sederhana dibandingkan harus menggunakan beberapa transportasi umum.",
+    "Dewi Anggraini",
+    "Perawat"
   ],
   [
-    "Menurut pengalaman saya, layanan ini cocok untuk perjalanan antar kota seperti Cianjur, Garut, Jabodetabek, Bandung, Semarang, Surabaya, hingga Denpasar. Armada cukup nyaman, driver berpengalaman, dan proses keberangkatan berjalan dengan baik. Saya akan mempertimbangkan menggunakan layanan ini kembali untuk perjalanan berikutnya.",
-    "Budi Hartono",
-    "Pelanggan"
+    "Saya mencari transportasi dari Cianjur ke Yogyakarta dan memilih layanan $brand karena lebih praktis untuk perjalanan antarkota. Informasi pemesanan disampaikan dengan jelas dan layanan ini bisa menjadi alternatif untuk perjalanan jarak jauh di Pulau Jawa.",
+    "Agus Setiawan",
+    "Teknisi"
   ],
 ];
+
 
 
 $faq = [
   [
-    "question" => "Rute apa saja yang dilayani?",
-    "answer" => "$brand melayani perjalanan dari Cianjur dan Sukabumi menuju berbagai wilayah Jabodetabek, Bandara Soetta, Bandung, Semarang, Surabaya, hingga Bali. Ketersediaan rute dan jadwal dapat disesuaikan dengan tujuan perjalanan."
+    "question" => "Rute travel mana saja yang dilayani?",
+    "answer" => "$brand melayani perjalanan dari Cianjur ke berbagai kota di Pulau Jawa dan sebaliknya. Tujuan perjalanan mencakup wilayah Jabodetabek, Bandung, Jawa Tengah, Yogyakarta, hingga Jawa Timur. Silakan hubungi admin untuk memastikan ketersediaan rute sesuai tujuan Anda."
   ],
   [
-    "question" => "Bagaimana cara melakukan pemesanan?",
-    "answer" => "Pemesanan dapat dilakukan dengan menghubungi admin melalui WhatsApp $telp atau telepon. Silakan informasikan nama, tanggal keberangkatan, lokasi penjemputan, tujuan perjalanan, dan jumlah penumpang agar proses reservasi dapat dilakukan dengan lebih cepat."
+    "question" => "Bagaimana cara memesan travel?",
+    "answer" => "Pemesanan travel $brand dapat dilakukan dengan menghubungi admin melalui WhatsApp $telp atau telepon. Sampaikan nama penumpang, tanggal keberangkatan, lokasi penjemputan, kota tujuan, dan jumlah penumpang agar admin dapat membantu proses pemesanan."
   ],
   [
-    "question" => "Apakah tersedia layanan antar jemput?",
-    "answer" => "Ya, $brand menyediakan layanan antar jemput dengan sistem door to door untuk area yang termasuk dalam jangkauan layanan. Penumpang dapat dijemput dari lokasi yang telah disepakati dan diantar langsung ke tujuan."
+    "question" => "Apakah tersedia layanan antar jemput door to door?",
+    "answer" => "$brand menyediakan layanan antar jemput door to door sesuai area layanan yang tersedia. Penjemputan dilakukan di alamat yang telah disepakati dan pengantaran menuju alamat tujuan dapat dikonfirmasi saat pemesanan."
   ],
   [
-    "question" => "Armada apa yang digunakan?",
-    "answer" => "$brand menggunakan armada yang bersih, nyaman, ber-AC, dan dirawat secara berkala. Kondisi kendaraan selalu diperhatikan agar perjalanan jarak dekat maupun jauh tetap nyaman."
+    "question" => "Apakah melayani perjalanan dari luar Cianjur menuju Cianjur?",
+    "answer" => "Ya, $brand melayani perjalanan dari berbagai kota di Pulau Jawa menuju Cianjur maupun dari Cianjur menuju kota tujuan. Silakan informasikan lokasi keberangkatan dan tujuan kepada admin untuk memastikan ketersediaan layanan."
   ],
   [
-    "question" => "Bagaimana metode pembayarannya?",
-    "answer" => "Pembayaran dapat dilakukan melalui transfer bank maupun secara tunai sesuai dengan ketentuan yang berlaku. Informasi mengenai metode pembayaran akan disampaikan oleh admin saat proses pemesanan."
+    "question" => "Bagaimana cara mengetahui tarif travel?",
+    "answer" => "Tarif travel $brand menyesuaikan kota asal, tujuan perjalanan, lokasi penjemputan, dan layanan yang dipilih. Untuk mendapatkan informasi harga terbaru, silakan hubungi admin melalui WhatsApp $telp sebelum melakukan pemesanan."
   ],
   [
-    "question" => "Apakah tersedia jadwal keberangkatan setiap hari?",
-    "answer" => "Ya, $brand menyediakan jadwal keberangkatan setiap hari untuk rute tertentu. Untuk mendapatkan informasi jadwal terbaru, ketersediaan kursi, dan waktu keberangkatan sesuai tujuan, silakan hubungi admin sebelum melakukan pemesanan."
+    "question" => "Bagaimana cara mengetahui jadwal keberangkatan?",
+    "answer" => "Jadwal keberangkatan $brand menyesuaikan rute dan ketersediaan perjalanan. Hubungi admin untuk memperoleh informasi jadwal, ketersediaan kursi, estimasi perjalanan, serta konfirmasi pemesanan sebelum tanggal keberangkatan."
   ],
 ];
-
 
 
 
@@ -337,6 +314,8 @@ function rupiah(int $harga)
   <!-- End Google Tag Manager -->
 
 
+  <link rel="preload" href="<?= $domain . $bg_hero ?>" as="image" fetchpriority="high">
+
   <meta name="author" content="Dion Zebua" />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -372,12 +351,6 @@ function rupiah(int $harga)
     href="src/css/swiper-bundle.min.css"
     as="style"
     onload="this.rel='stylesheet'" />
-
-  <link
-    rel="preload"
-    fetchpriority="high"
-    as="image" type="image/jpeg"
-    href="<?= $domain ?>src/img/background-hero-section.webp">
 
 </head>
 
@@ -519,7 +492,7 @@ function rupiah(int $harga)
     <!-- Hero Section -->
     <section class="container !pb-10">
       <div
-        style="background-image: url(<?= $domain ?>src/img/background-hero-section.avif)"
+        style="background-image: url(<?= $domain . $bg_hero ?>)"
         class="py-10 lg:py-7 bg-fixed bg-contain bg-center rounded-lg relative">
         <div
           class="absolute rounded-lg inset-0 bg-[radial-gradient(rgb(0_0_0_/_0.9),rgb(0_0_0_/_0.7))] md:bg-[radial-gradient(rgb(0_0_0_/_0.6),rgb(0_0_0_/_0.7))] from-0% via-50% to-100%">
@@ -808,7 +781,7 @@ function rupiah(int $harga)
           </p>
         </div>
         <div
-          class="grid grid-cols-12 gap-x-6 gap-y-8 [&>div]:col-span-12 [&>div]:sm:col-span-6 [&>div]:md:col-span-4 [&>div]:lg:col-span-3 [&>div]:rounded-xl [&>div]:border-b-8 [&>div]:border-primary [&>div]:shadow-xl [&>div]:overflow-hidden [&>div]:bg-white [&>div]:relative [&>div>a]:absolute [&>div>a]:inset-0 [&_img]:border-b [&>div_div]:p-4 [&>div_div]:md:px-5 [&>div_div]:lg:px-6 [&_h3]:line-clamp-3 [&_h3]:text-[15px] [&_h3]:font-semibold [&_h3]:text-slate-700 [&_h3]:z-10 [&_h3]:relative [&_h3]:cursor-pointer">
+          class="grid grid-cols-12 gap-x-6 gap-y-8 [&>div]:col-span-12 [&>div]:sm:col-span-6 [&>div]:md:col-span-4 [&>div]:rounded-xl [&>div]:border-b-8 [&>div]:border-primary [&>div]:shadow-xl [&>div]:overflow-hidden [&>div]:bg-white [&>div]:relative [&>div>a]:absolute [&>div>a]:inset-0 [&_img]:border-b [&>div_div]:p-4 [&>div_div]:md:px-5 [&>div_div]:lg:px-6 [&_h3]:line-clamp-3 [&_h3]:text-[15px] [&_h3]:font-semibold [&_h3]:text-slate-700 [&_h3]:z-10 [&_h3]:relative [&_h3]:cursor-pointer">
           <?php if (count($rute) > 0) : ?>
             <?php foreach ($rute as $item) : ?>
 
@@ -818,14 +791,14 @@ function rupiah(int $harga)
                   width="100%"
                   height="100%"
                   loading="lazy"
-                  alt="travel Cianjur/Sukabumi - <?= $item['tujuan'] ?>"
+                  alt="travel Cianjur - <?= $item['tujuan'] ?>"
                   class="brightness-75" />
                 <div class="">
                   <h3 class="!line-clamp-1 block whitespace-nowrap !z-1">
-                    Cianjur/Sukabumi - <?= $item['tujuan'] ?>
+                    Cianjur - <?= $item['tujuan'] ?>
                   </h3>
                   <p class="text-[15px] opacity-80 my-2 !line-clamp-3">
-                    Jasa Travel dari Cianjur dan Sukabumi ke <?= $item['tujuan'] ?> atau sebaliknya:
+                    Rekomendasi travel dari Cianjur ke <?= $item['tujuan'] ?> pp:
                   </p>
                   <ul class="text-[15px] opacity-80 !list-disc ml-5">
                     <?php foreach ($item['rute'] as $r) : ?>
@@ -836,7 +809,7 @@ function rupiah(int $harga)
                     <?php endforeach; ?>
 
                   </ul>
-                  <a target="_blank" title="Booking tiket travel Cianjur/Sukabumi - <?= $item['tujuan'] ?> via whatsapp" href="<?= $link_whatsapp ?>" class="my-gradient hover:!bg-none hover:!bg-primary-hover text-slate-100 block text-center text-sm mt-3 rounded p-2 relative">Booking Tiket</a>
+                  <a target="_blank" title="Booking tiket travel Cianjur - <?= $item['tujuan'] ?> via whatsapp" href="<?= $link_whatsapp ?>" class="my-gradient hover:!bg-none hover:!bg-primary-hover text-slate-100 block text-center text-sm mt-3 rounded p-2 relative">Booking Tiket</a>
                 </div>
               </div>
             <?php endforeach; ?>
@@ -900,49 +873,52 @@ function rupiah(int $harga)
               <img loading="lazy" src="<?= $domain . $logo ?>" class="w-full rounded-lg aspect-square bg-yellow-100" alt="tentang <?= $title ?>">
             </div>
           </div>
-          <div class="col-span-full md:!col-span-1  ">
+          <div class="col-span-full md:!col-span-1">
             <div class="text inner-container">
               <h2 class="line-h2 left-12 text-slate-50 before:!bg-blue-300 after:!bg-blue-300"><?= $brand ?></h2>
+
               <p class="desc text-justify !text-slate-300 !mb-5">
-                <?= $brand ?> hadir dengan pelayanan terbaik, khususnya dalam menyediakan layanan
-                <a class="underline" href="https://jasatravel.web.id/" target="_blank">travel antar kota</a>.
-                Kami melayani perjalanan dengan sistem antar jemput langsung dari rumah maupun dari titik penjemputan sesuai dengan kebutuhan Anda.
+                <?= $brand ?> menyediakan layanan
+                <a class="underline" href="https://jasatravel.web.id/" target="_blank" rel="noopener noreferrer">travel antar kota</a>
+                dari Cianjur ke berbagai kota di Pulau Jawa dan sebaliknya. Dengan layanan perjalanan yang praktis, kami membantu memenuhi kebutuhan transportasi untuk perjalanan pribadi, keluarga, pekerjaan, maupun keperluan lainnya.
               </p>
 
               <p class="desc text-justify !text-slate-300 !mb-5">
-                Salah satu rute yang banyak diminati adalah
-                <a href="https://biotrans.id/rute/travel-cianjur-surabaya/" class="underline" target="_blank">Travel Cianjur Surabaya</a>,
-                termasuk perjalanan dari Surabaya menuju Cianjur. Untuk memastikan perjalanan tetap nyaman dan aman, setiap keberangkatan didukung oleh sopir berpengalaman serta armada yang berkualitas.
+                Kami melayani perjalanan dari Cianjur menuju wilayah Jabodetabek, Bandung, Jawa Tengah, Yogyakarta, hingga Jawa Timur, serta perjalanan dari berbagai kota tersebut menuju Cianjur. Salah satu pilihan rute perjalanan adalah
+                <a href="https://biotrans.id/rute/travel-cianjur-surabaya/" class="underline" target="_blank" rel="noopener noreferrer">Travel Cianjur Surabaya</a>.
+                Silakan hubungi admin untuk memastikan ketersediaan rute, jadwal keberangkatan, dan tarif perjalanan.
               </p>
 
               <p class="desc text-justify !text-slate-300 !mb-5">
-                Selain menyediakan layanan <?= $brand ?> dengan sistem door to door, kami juga menyediakan berbagai pilihan layanan perjalanan lainnya yang dapat disesuaikan dengan kebutuhan perjalanan Anda, seperti:
+                Untuk memberikan kemudahan bagi pelanggan, <?= $brand ?> menyediakan pilihan layanan transportasi yang dapat disesuaikan dengan kebutuhan perjalanan, baik untuk perjalanan antar kota maupun keperluan rombongan, di antaranya:
               </p>
-
 
               <ul class="!list-item !list-disc text-slate-300 ml-5">
-                <li>Travel Reguler</li>
+                <li>Travel Antar Kota</li>
+                <li>Travel Door to Door</li>
+                <li>Carter Mobil Antar Kota</li>
                 <li>Carter Drop Off</li>
-                <li>Carter Drop Bandara</li>
-                <li>Carter Drop Pelabuhan</li>
-                <li>Carter PP</li>
-                <li>Pariwisata</li>
+                <li>Carter Antar Jemput Bandara</li>
+                <li>Carter Pulang Pergi (PP)</li>
+                <li>Sewa Mobil dengan Sopir</li>
+                <li>Perjalanan Pariwisata</li>
                 <li>City Tour</li>
-                <li>Ziarah</li>
-                <li>Hajatan</li>
-                <li>Perjalanan Bisnis</li>
-                <li>Private</li>
-                <li>Kirim Paket</li>
+                <li>Perjalanan Ziarah</li>
+                <li>Transportasi Acara Keluarga dan Hajatan</li>
+                <li>Transportasi Perjalanan Bisnis</li>
+                <li>Perjalanan Privat</li>
+                <li>Pengiriman Paket Antar Kota</li>
               </ul>
-
             </div>
-            <!-- <div class="grid grid-cols-2">
+          </div>
+
+          <!-- <div class="grid grid-cols-2">
                 <div class="col-span-full">
                   <p></p>
                 </div>
               </div> -->
-          </div>
         </div>
+      </div>
       </div>
     </section>
     <!-- Tentang Kami -->
