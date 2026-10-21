@@ -1,7 +1,7 @@
 <?php
 
 $domain = 'http://localhost/zakaria-travel-cianjur.web.id/';
-// $domain = 'https://zakaria-travel-cianjur.web.id/';
+$domain = 'https://zakaria-travel-cianjur.web.id/';
 $brand = 'Zakaria Travel Cianjur';
 $logoShared = 'src/img/harga-travel.jpg';
 $logo = 'src/img/logo.avif';
