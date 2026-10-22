@@ -2128,12 +2128,6 @@ header.activeHeader {
   }
 }
 
-@media (min-width: 1024px) {
-  .\[\&\>div\]\:lg\:col-span-3>div {
-    grid-column: span 3 / span 3;
-  }
-}
-
 .\[\&\>div_div\]\:p-4>div div {
   padding: 1rem;
 }
