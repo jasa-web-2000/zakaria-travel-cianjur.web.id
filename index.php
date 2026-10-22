@@ -309,7 +309,7 @@ function rupiah(int $harga)
       j.src =
         'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
       f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-MQ6NC6L7');
+    })(window, document, 'script', 'dataLayer', 'GTM-K6ZXNV8X');
   </script>
   <!-- End Google Tag Manager -->
 
@@ -357,7 +357,7 @@ function rupiah(int $harga)
 <body class="font-poppins text-slate-700 overflow-x-hidden">
 
   <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MQ6NC6L7"
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K6ZXNV8X"
       height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
